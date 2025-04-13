@@ -16,7 +16,7 @@ const Navbar = () => {
         href="#home"
         className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-2xl font-semibold text-transparent opacity-80 transition-all duration-300 hover:opacity-100 md:text-3xl"
       >
-        Rispa
+        RISPA
       </a>
 
       {/* Desktop Navigation */}

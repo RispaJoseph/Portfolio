@@ -41,7 +41,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl md:text-3xl"
           >
-            Full Stack Developer
+            Software Developer
           </motion.h3>
 
           {/* Description Animation */}
@@ -51,10 +51,10 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="md:text-base text-pretty text-sm text-gray-400"
           >
-            I’m a passionate Fullstack Developer with expertise in both frontend and backend
-            technologies. I specialize in crafting scalable web applications using modern frameworks, 
-            RESTful APIs, and database management. I also excel at optimizing DevOps processes 
-            through CI/CD, automation, and cloud integration. Let’s transform your ideas into seamless, 
+            I’m a passionate Software Developer with expertise in both frontend and backend
+            technologies. I specialize in crafting scalable web applications using modern frameworks,
+            RESTful APIs, and database management. I also excel at optimizing DevOps processes
+            through CI/CD, automation, and cloud integration. Let’s transform your ideas into seamless,
             high-performance solutions!
           </motion.p>
         </motion.div>
@@ -65,6 +65,9 @@ const Hero = () => {
           animate={{ scale: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
           className="mt-6 py-3 px-8 bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold rounded-lg shadow-lg hover:bg-indigo-700"
+          onClick={() => {
+            document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+          }}
         >
           Get in Touch
         </motion.button>

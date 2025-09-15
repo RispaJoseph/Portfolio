@@ -1,4 +1,4 @@
-import { BiLogoAws, BiLogoDjango, BiLogoDocker, BiLogoKubernetes, BiLogoPostgresql, BiLogoPython, BiLogoReact } from "react-icons/bi";
+import { BiLogoAws, BiLogoDjango, BiLogoDocker, BiLogoGit, BiLogoKubernetes, BiLogoPostgresql, BiLogoPython, BiLogoReact } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 const techIcons = [
@@ -8,7 +8,7 @@ const techIcons = [
   { icon: BiLogoDocker, color: "text-blue-500" },
   { icon: BiLogoAws, color: "text-orange-500" },
   { icon: BiLogoKubernetes, color: "text-blue-500" },
-  { icon: BiLogoReact, color: "text-sky-500" },
+  { icon: BiLogoGit, color: "text-red-500" },
 ];
 
 const iconVariants = {

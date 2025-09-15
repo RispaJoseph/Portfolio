@@ -1,10 +1,10 @@
-###🌐 Personal Portfolio – Rispa
+### 🌐 Personal Portfolio – Rispa
 
 A modern, responsive portfolio website built with React, Tailwind CSS, and Framer Motion, showcasing my skills, projects, and experience as a Python/Django Developer and aspiring DevOps Engineer.
 
 ---
 
-##🚀 Features
+## 🚀 Features
 
 ✨ Clean and responsive UI
 
@@ -22,7 +22,7 @@ A modern, responsive portfolio website built with React, Tailwind CSS, and Frame
 ---
 
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: React, Vite, Tailwind CSS, Framer Motion
 

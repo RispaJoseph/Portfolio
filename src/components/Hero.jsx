@@ -51,11 +51,10 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="md:text-base text-pretty text-sm text-gray-400"
           >
-            I’m a passionate Software Developer with expertise in both frontend and backend
-            technologies. I specialize in crafting scalable web applications using modern frameworks,
-            RESTful APIs, and database management. I also excel at optimizing DevOps processes
-            through CI/CD, automation, and cloud integration. Let’s transform your ideas into seamless,
-            high-performance solutions!
+            I’m a passionate Software Developer with expertise across frontend and backend technologies. 
+            I specialize in crafting scalable web applications, RESTful APIs, and managing databases with modern frameworks. 
+            I also excel at streamlining DevOps processes through CI/CD, automation, and cloud integration — delivering seamless, high-performance solutions. 
+            Always open to learning, collaborating, and connecting with like-minded professionals!
           </motion.p>
         </motion.div>
 

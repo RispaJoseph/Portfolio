@@ -151,7 +151,7 @@ const Navbar = () => {
           <ul className="mt-6 flex gap-5">
             <li>
               <a
-                href="https://linkedin.com/in/yourprofile"
+                href="https://linkedin.com/in/rispa-joseph"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100"
@@ -161,7 +161,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/RispaJoseph"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100"
@@ -171,7 +171,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://instagram.com/yourusername"
+                href="https://instagram.com/rispajoseph"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-500 hover:opacity-100"

@@ -153,7 +153,8 @@ const Navbar = () => {
               <a
                 href="https://linkedin.com/in/rispa-joseph"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer external"
+                onClick={() => setIsOpen(false)} // ✅ close menu after click
                 className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100"
               >
                 <BsLinkedin />
@@ -163,7 +164,8 @@ const Navbar = () => {
               <a
                 href="https://github.com/RispaJoseph"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer external"
+                onClick={() => setIsOpen(false)}
                 className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-500 hover:opacity-100"
               >
                 <BsGithub />
@@ -173,7 +175,8 @@ const Navbar = () => {
               <a
                 href="https://instagram.com/rispajoseph"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer external"
+                onClick={() => setIsOpen(false)}
                 className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-pink-500 hover:opacity-100"
               >
                 <BsInstagram />
@@ -182,6 +185,8 @@ const Navbar = () => {
           </ul>
         </div>
       )}
+
+
     </nav>
   );
 };
